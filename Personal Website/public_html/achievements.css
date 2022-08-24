@@ -1,0 +1,102 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    position: relative;
+    background: white;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    
+}
+
+.item{
+    width: calc((100% / 3 ) - 30px);
+    margin: 0 15px 30px;
+   float: left;
+}
+.thambnail{
+    padding: 10px;
+    
+}
+.thambnail img{
+    height: 400px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.item h3{
+    font-size: 20px;
+    margin: 20px 0 15px;
+    text-transform: capitalize;
+    color: brown;
+    text-align: center;
+}
+.item .description{
+   font-size: 16px;
+   text-align: center;
+   color: darkslategray;
+}
+.item .general li{
+    font-size: 14px;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.item .general li a{
+   text-transform: lowercase;
+   color: blue;
+   text-decoration: none;
+}
+.item .general li span{
+   font-weight: 500;
+}
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: brown;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
